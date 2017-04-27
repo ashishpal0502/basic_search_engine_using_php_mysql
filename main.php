@@ -24,7 +24,7 @@ $(function() {
     
     //autocomplete
     $(".auto").autocomplete({
-        source: "get.php",
+        source: "post.php",
         minLength: 1
     });                
 
